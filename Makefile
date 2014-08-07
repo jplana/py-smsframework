@@ -15,6 +15,6 @@ clean:
 README.rst: README.md
 	@pandoc -f markdown -t rst -o README.rst README.md
 build: README.rst
-	@./setup.py build sdist bdist
+	@./setup.py build sdist
 publish: README.rst
-	@./setup.py build sdist bdist register upload -r pypi
+	@./setup.py build sdist register upload -r pypi
