@@ -20,12 +20,13 @@ setup(
 
     install_requires=[
     ],
+    setup_requires=['nose'],
+    tests_require=['nose', 'flask', 'asynctools'],
     extras_require={
         'clickatell': ['smsframework-clickatell >= 0.0.1'],
         'vianett': ['smsframework-vianett >= 0.0.1'],
         'receiver': ['flask >= 0.10'],
         'async': ['asynctools >= 0.1.2'],
-        '_tests': ['nose', 'flask', 'asynctools']
     },
     test_suite='nose.collector',
     include_package_data=True,
