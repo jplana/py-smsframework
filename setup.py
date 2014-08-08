@@ -25,7 +25,7 @@ setup(
         'vianett': ['smsframework-vianett >= 0.0.1'],
         'receiver': ['flask >= 0.10'],
         'async': ['asynctools >= 0.1.2'],
-        '_tests': ['nose', 'flask', 'asynctools']
+        '_tests': ['nose', 'flask', 'asynctools', 'testfixtures']
     },
     test_suite='nose.collector',
     include_package_data=True,
