@@ -21,7 +21,7 @@ setup(
     install_requires=[
     ],
     setup_requires=['nose'],
-    tests_require=['nose', 'flask', 'asynctools', 'testfixtures',],
+    tests_require=['flask', 'asynctools', 'testfixtures',],
     extras_require={
         'clickatell': ['smsframework-clickatell >= 0.0.1'],
         'vianett': ['smsframework-vianett >= 0.0.1'],
