@@ -5,6 +5,7 @@
 /MANIFEST
 /*.egg-info/
 /*.egg/
+/*.egg
 # ===[ OTHER ]=== #
 
 # IDE Projects
